@@ -26,9 +26,6 @@ def make_outbound_call():
         from_="+12512921238"
     )
     print(call.sid)
-    response = VoiceResponse()
-    response.say('Hello Beach!')
-    print(response)
     return "Outbound call initiated"
 
 if __name__ == "__main__":
